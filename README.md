@@ -16,4 +16,4 @@ Any file that uses the audio engine will need to #include "audio_engine_external
 Read the comments in that file to learn how to initialize the engine and how to play sounds with it.
 
 
-Logo by PotatoTeto
+Logo and sample audio by PotatoTeto
