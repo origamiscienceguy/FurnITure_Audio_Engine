@@ -1,0 +1,9 @@
+build/
+data/audio/samples_processed/*
+!data/audio/samples_processed/.gitkeep
+data/audio/assets_processed/*
+data/audio/assets_processed/*
+!data/audio/assets_processed/.gitkeep
+*.pnproj
+*.pnps
+*.lnk
