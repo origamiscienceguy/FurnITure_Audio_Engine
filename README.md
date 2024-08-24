@@ -17,5 +17,7 @@ Any file that uses the audio engine will need to #include "audio_engine_external
 
 Read the comments in that file to learn how to initialize the engine and how to play sounds with it.
 
+For an example of use, see https://github.com/origamiscienceguy/FurnITure_example
+
 
 Logo and sample audio by potatoTeto
