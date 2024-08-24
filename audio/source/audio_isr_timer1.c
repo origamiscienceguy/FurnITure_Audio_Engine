@@ -1,7 +1,7 @@
 #include "tonc.h"
 #include "audio_engine_internal.h"
 
-void timer1ISR(){
+void audioTimer1ISR(){
 	//disable DMA
 	REG_DMA1CNT = 0;
 	REG_DMA2CNT = 0;

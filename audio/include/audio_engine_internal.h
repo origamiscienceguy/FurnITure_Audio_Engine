@@ -1,9 +1,8 @@
-#ifndef audio_engineh
-#define audio_engineh
+#ifndef audio_engine_internalh
+#define audio_engine_internalh
 
 //includes
 #include "tonc.h"
-#include "main.h"
 #include "audio_engine_external.h"
 
 //constants

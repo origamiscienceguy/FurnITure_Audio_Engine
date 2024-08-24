@@ -4,7 +4,7 @@
 	.global mixAudio
 	.type mixAudio STT_FUNC
 
-#include "audio_engine_settings.h"
+#include "../include/audio_engine_settings.h"
 
 @register usage on entry:
 	@r0: pointer to array of structs containing data for each channel

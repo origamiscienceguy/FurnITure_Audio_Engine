@@ -1,3 +1,6 @@
+#ifndef audio_engine_externalh
+#define audio_engine_externalh
+
 #include "audio_engine_settings.h"
 #include "audio_assets_enum.h"
 
@@ -49,4 +52,5 @@ extern u8 isSoundPlaying(u16 assetName, u8 assetIndex);
 extern void audioVcountISR();
 
 //when audio engine is on, this must be ran within 1024 cycles of a timer1 interrupt firing
-extern void timer1ISR();
+extern void audioTimer1ISR();
+#endif

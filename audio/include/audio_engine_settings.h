@@ -1,3 +1,6 @@
+#ifndef audio_engine_settingsh
+#define audio_engine_settingsh
+
 //the most DMA channels that can be playing at the same time.
 //Increasing this value will greatly reduce performance.
 #ifndef MAX_DMA_CHANNELS
@@ -47,3 +50,5 @@
 #endif // __ASSEMBLER__
 
 #endif // AUDIO_PRIORITY_H
+
+#endif

@@ -74,6 +74,7 @@ void audioInitialize(){
 	}
 	
 	//enable vcount interrupts so that the audio iterrupt can be synced to this point
+	REG_DISPSTAT = REG_DISPSTAT & ~DSTAT_VCT_MASK;
 	REG_DISPSTAT = REG_DISPSTAT | (DSTAT_VCT_IRQ | DSTAT_VCT(158));
 }
 

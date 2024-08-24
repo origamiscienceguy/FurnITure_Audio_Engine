@@ -487,11 +487,11 @@ assetPriorityDir = os.path.join(cwd, os.pardir, 'data', 'audio', 'assets_priorit
 print("the asset priority directory is " + assetPriorityDir)
 
 #open the audio_list file
-audioListPath = os.path.join(cwd, os.pardir, 'source', 'audio', 'audio_list.c')
+audioListPath = os.path.join(cwd, os.pardir, 'audio', 'source', 'audio_list.c')
 print("the global audio list file is " + audioListPath)
 
 #open the audio_assets_enum file
-audioAssetsPath = os.path.join(cwd, os.pardir, 'source', 'audio', 'audio_assets_enum.h')
+audioAssetsPath = os.path.join(cwd, os.pardir, 'audio', 'source', 'audio_assets_enum.h')
 print("the audio assets enum file is " + audioAssetsPath + "\n")
 
 #open the audio_volumes file
