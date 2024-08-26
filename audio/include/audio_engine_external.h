@@ -9,7 +9,7 @@ extern void processAudio();
 
 //before calling this function, set audioVcountISR() to run upon a vcount interrupt, and void timer1ISR() to run upon a timer 1 interrupt.
 //this function will enable a vcount interrupt just once. Two frames after this function is invoked, it is safe to use Vcount interrupts again.
-//Timer 0, Timer 1, DMA 0, DMA 1, and all the sound registers must not be touched from now until the engine is disabled.
+//Timer 0, Timer 1, DMA 1, DMA 2, and all the sound registers must not be touched from now until the engine is disabled.
 extern void audioInitialize();
 
 //will add a new song to the queue if it's priority is higher than another songs in the queue.
